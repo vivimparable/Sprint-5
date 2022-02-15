@@ -1,0 +1,38 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: large;
+  background-image: url(../33366.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.contenedor {
+  max-width: 120rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card-joke {
+  background-color: white;
+  border: solid 0.1rem grey;
+  border-radius: 2rem;
+  -webkit-box-shadow: 10px 10px 23px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 23px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 23px 0px rgba(0, 0, 0, 0.75);
+}
+
+.card-global {
+  margin-top: 3rem;
+  background-color: rgb(255, 255, 255, 0.5);
+  padding-bottom: 1rem;
+  border-radius: 2rem;
+}
